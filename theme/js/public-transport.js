@@ -175,7 +175,7 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
   // Load data from file
   $.ajax({
     type: "GET",
-    url: "data/" + bus_number + "-1.geojson",
+    url: "/data/" + bus_number + "-1.geojson",
     dataType: 'json',
     async: true,
     cache: true,
@@ -244,7 +244,7 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
       // Load data from file
   $.ajax({
     type: "GET",
-    url: "data/" + bus_number + "-2.geojson",
+    url: "/data/" + bus_number + "-2.geojson",
     dataType: 'json',
     async: true,
     cache: true,
